@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+<body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+  <nav id="header-nav" class="navbar navbar-default navbar-static-top">
+      <div id="main-content" class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
-            <h1>Food, LLC</h1></a>
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
+          </div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -22,35 +24,48 @@
             <span class="icon-bar"></span>
           </button>
         </div>
+      </div>
     </nav><!-- #header-nav -->
   </header>
-  </head>
-<body>
 
-  <h1>Our Menu</h1>
-    <div>
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <br class="hidden-xs">Chicken</a>
-            </li>
-            <li>
-              <a href="#">
-                </span><br class="hidden-xs">Beef</a>
-            </li>
-            <li>
-              <a href="#">
-                </span><br class="hidden-xs">Sushi</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-            <li>
-                <h1>Chicken</h1>
-                <span>Loren ipsus ....</span></a>
-            </li>
-      </div><!-- .container -->
-
+          <div id="main-content" class="container">
+          <div id="collapsable-nav" class="collapse navbar-collapse ">
+               <ul id = "nav-list"  class ="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
+                <li class="text-center"><a href="#">Chicken</a></li>
+                <li class="text-center"><a href="#">Beef</a></li>
+                <li class="text-center"><a href="#">Sushi</a></li>           
+               </ul>
+                   </div> 
+  <h2 id="menu-categories-title" class="text-center"> Our Menu</h2>
+    <div class="container">
+        <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="chicken">
+            <h2 class="text-center">Chicken</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis ex condimentum, tincidunt nibh in, semper leo. Morbi ut metus bibendum, rhoncus ipsum eu, condimentum quam. Phasellus vehicula lacus a mi fermentum fermentum. Curabitur vel nulla arcu. Morbi venenatis eleifend consequat. Nullam at viverra est, eu efficitur quam. Aenean fringilla pharetra sapien, non consequat nulla hendrerit nec. Morbi egestas nisi sit amet nisi dictum, sit amet ornare metus fermentum. Quisque semper, urna nec cursus lobortis, nibh nunc cursus dolor, eu ullamcorper libero libero quis purus. Vestibulum vel porttitor tortor. In dictum justo id neque fringilla tempus. Morbi at magna lectus. Curabitur malesuada sapien vitae enim commodo gravida sit amet quis diam.
+            </p>
+            <p>
+                Ut nec erat sed ante hendrerit lobortis ut facilisis velit. Vestibulum vehicula tellus nisl. Cras nec urna massa. Nulla ultricies faucibus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vestibulum elit quis eros euismod mollis. Suspendisse molestie metus eu nisi bibendum, id consequat tellus ultricies. Etiam tristique ante in vestibulum fermentum. Etiam iaculis volutpat elementum. Fusce lobortis in ante vel imperdiet. In vitae scelerisque sem, ac cursus mauris. Nullam viverra dignissim dolor sed tempus. Vestibulum dignissim mauris magna, ut tincidunt ligula aliquam et.
+            </p>
+        </section>
+        <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="beef">
+            <h2 class="text-center">Beef</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis ex condimentum, tincidunt nibh in, semper leo. Morbi ut metus bibendum, rhoncus ipsum eu, condimentum quam. Phasellus vehicula lacus a mi fermentum fermentum. Curabitur vel nulla arcu. Morbi venenatis eleifend consequat. Nullam at viverra est, eu efficitur quam. Aenean fringilla pharetra sapien, non consequat nulla hendrerit nec. Morbi egestas nisi sit amet nisi dictum, sit amet ornare metus fermentum. Quisque semper, urna nec cursus lobortis, nibh nunc cursus dolor, eu ullamcorper libero libero quis purus. Vestibulum vel porttitor tortor. In dictum justo id neque fringilla tempus. Morbi at magna lectus. Curabitur malesuada sapien vitae enim commodo gravida sit amet quis diam.
+            </p>
+            <p>
+                Ut nec erat sed ante hendrerit lobortis ut facilisis velit. Vestibulum vehicula tellus nisl. Cras nec urna massa. Nulla ultricies faucibus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vestibulum elit quis eros euismod mollis. Suspendisse molestie metus eu nisi bibendum, id consequat tellus ultricies. Etiam tristique ante in vestibulum fermentum. Etiam iaculis volutpat elementum. Fusce lobortis in ante vel imperdiet. In vitae scelerisque sem, ac cursus mauris. Nullam viverra dignissim dolor sed tempus. Vestibulum dignissim mauris magna, ut tincidunt ligula aliquam et.
+            </p>
+        </section>
+        <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="sushi">
+            <h2 class="text-center">Sushi</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis ex condimentum, tincidunt nibh in, semper leo. Morbi ut metus bibendum, rhoncus ipsum eu, condimentum quam. Phasellus vehicula lacus a mi fermentum fermentum. Curabitur vel nulla arcu. Morbi venenatis eleifend consequat. Nullam at viverra est, eu efficitur quam. Aenean fringilla pharetra sapien, non consequat nulla hendrerit nec. Morbi egestas nisi sit amet nisi dictum, sit amet ornare metus fermentum. Quisque semper, urna nec cursus lobortis, nibh nunc cursus dolor, eu ullamcorper libero libero quis purus. Vestibulum vel porttitor tortor. In dictum justo id neque fringilla tempus. Morbi at magna lectus. Curabitur malesuada sapien vitae enim commodo gravida sit amet quis diam.
+            </p>
+            <p>
+                Ut nec erat sed ante hendrerit lobortis ut facilisis velit. Vestibulum vehicula tellus nisl. Cras nec urna massa. Nulla ultricies faucibus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vestibulum elit quis eros euismod mollis. Suspendisse molestie metus eu nisi bibendum, id consequat tellus ultricies. Etiam tristique ante in vestibulum fermentum. Etiam iaculis volutpat elementum. Fusce lobortis in ante vel imperdiet. In vitae scelerisque sem, ac cursus mauris. Nullam viverra dignissim dolor sed tempus. Vestibulum dignissim mauris magna, ut tincidunt ligula aliquam et.
+            </p>
+        </section>
+    </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
@@ -58,3 +73,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
