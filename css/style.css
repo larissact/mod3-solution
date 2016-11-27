@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  font-family: 'Lobster', cursive, Georgia, Serif; 
+}
+
+h1 {
+  font-family: 'Lobster', cursive, Georgia, Serif; 
+  font-size: 1.75em; 
+  font-weight: bold; 
+  line-height: 48px; 
+  text-shadow: 1px 0 0 #fff; 
+}
+
+#header-nav{
+  background-color: #939393;
+  margin-top: 0px;
+  border: 2px solid black;
+}
+
+body .container .row{
+  width: 100%;
+  margin:0px;
+}
+
+.navbar .navbar-brand{
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid black;
+}
+
+.navbar .navbar-collapse ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar .navbar-collapse li{
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+}
+
+.navbar .navbar-collapse li>a{
+  color: black;
+}
+
+.navbar .navbar-collapse li:hover{
+  background-color: #D2ECEB;
+}
+
+.block{
+  background-color: #939393;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.block h3 {
+  margin: 0px;
+  font-weight: bold; 
+  font-size: 1.25em;
+}
+
+.block h3#block-title-chicken {
+  background-color: #EAAFC7;
+}
+
+.block h3#block-title-beef {
+  background-color: #D34848;
+  color: white;
+}
+
+.block h3#block-title-sushi {
+  background-color: #ECE5A6;
+}
+
+.block-content {
+  border: none;
+  padding: 10px;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+}
